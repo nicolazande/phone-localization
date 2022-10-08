@@ -1,6 +1,6 @@
 # phoneLocalization
 
-##Instructions to run the code
+## Instructions to run the code
 
 1) Download zip folder: inside this folder there are the two python3 scripts along with already saved weights for the network.
 
