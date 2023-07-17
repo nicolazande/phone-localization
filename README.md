@@ -1,4 +1,4 @@
-# phoneLocalization
+# phone-localization
 
 ## Instructions to run the code
 
