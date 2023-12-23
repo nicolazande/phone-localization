@@ -1,10 +1,10 @@
 # phone-localization
 
 ## Instructions to run the code
-![find_phone](https://github.com/nicolazande/phone-localization/assets/115359494/53ed21c6-8fb6-4b45-acfe-8e9fe9fc580d)
-
 1. Run "train_phone_finder.py": takes as input the path of the folder where the images training set is and, eventually, builds the model, trains it and saves new weights. At the beginning of the script there are few parameters (save_weights, start_training, prepare_patches, load_weights, apply_data_augmentation) which are by default to False. This is due to the fact that I already included all the components to run "find_phone.py" in the folder but by setting those parameters to True you can create new patches from the original test set, tain the model (standard 10 epochs) and saving the weights for "find_phone.py".
 2. Run "find_phone.py": takes as input the path of the test image and gives as output the relative coordinates of the center of the phone. This script simply builds the same model as the one in "train_phone_finder.py", loads the previously obtained weights and makes the prediction.
+
+![find_phone](https://github.com/nicolazande/phone-localization/assets/115359494/53ed21c6-8fb6-4b45-acfe-8e9fe9fc580d)
 
 ## Libraries used
 - all standard python libraries (numpy, json, PIL, ...)
